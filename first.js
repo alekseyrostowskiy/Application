@@ -13,4 +13,4 @@ const movieGrade = prompt("На сколько оцените его");
 
 personalMovieDB["movies"][movieName] = movieGrade;
 
-console.log(personalMovieDB["movies"][movieName]);
+console.log(personalMovieDB);
